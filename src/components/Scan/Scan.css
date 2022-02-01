@@ -1,0 +1,43 @@
+.reader-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.reader-container p {
+    text-align: center;
+}
+
+.reader-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reader-btn {
+    width: 50%;
+    padding: 0.5rem;
+    align-self: center;
+    background: seagreen;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reader-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.result {
+    margin-bottom: 4rem;
+}
+
+.reader {
+    align-self: center;
+    margin-bottom: 20px;
+}
